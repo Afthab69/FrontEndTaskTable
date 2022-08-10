@@ -1,27 +1,30 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <title>task</title>
     <link rel="stylesheet" href="planets.css">
 </head>
 <body>
     <h1>Planets data</h1>
+    <div>
     <table>
-        <caption>Data about the planets of our solar sytem(Planetary facts taken from <span class="a1">Nasa's Planetary Fact Sheet-Metric</span>)</caption>
+        <caption>Data about the planets of our solar sytem(Planetary facts taken from <span class="bluetext">Nasa's Planetary Fact Sheet-Metric</span>)</caption>
         <tr>
-            <th class="x1" colspan="2"></th>
-            <th class="q1">Name</th>
-            <th>Mass</th>
-            <th>Diameter</th>
-            <th>Density</th>
-            <th>Gravity</th>
-            <th>Length of day</th>
-            <th>Distance from Sun</th>
-            <th>Mean temperature</th>
+            <th class="tray" colspan="2"></th>
+            <th class="name">Name</th>
+            <th>Mass<br>&#40;10<sup>24</sup>&#41;</th>
+            <th>Diameter<br>&#40;km&#41;</th>
+            <th>Density<br>&#40;kg&#8725;m<sup>3</sup>&#41;</th>
+            <th>Gravity<br>&#40;m&#8725;s<sup>2</sup>&#41;</th>
+            <th>Length of day<br>&#40;hours&#41;</th>
+            <th>Distance from Sun<br>&#40;10<sup>6</sup>km&#41;</th>
+            <th>Mean temperature<br>&#40;&#8451;&#41;</th>
             <th>Number of moons</th>
             <th>Notes</th>
         </tr>
         <tr>
-            <th rowspan="4", colspan="2">Terrestrial planets</th>
-            <td class="pl">Mercury</td>
+            <th rowspan="4" colspan="2">Terrestrial planets</th>
+            <td class="planets">Mercury</td>
             <td>0.330</td>
             <td>4,879</td>
             <td>5437</td>
@@ -33,7 +36,7 @@
             <td>Closest to the Sun</td>
         </tr>
         <tr>
-            <td class="pl">Venus</td>
+            <td class="planets">Venus</td>
             <td>4.87</td>
             <td>12,104</td>
             <td>5243</td>
@@ -45,7 +48,7 @@
             <td></td>
         </tr>
         <tr>
-            <td class="pl">Earth</td>
+            <td class="planets">Earth</td>
             <td>5.97</td>
             <td>12,756</td>
             <td>5514</td>
@@ -57,7 +60,7 @@
             <td>Our World</td>
         </tr>
         <tr>
-            <td class="pl">Mars</td>
+            <td class="planets">Mars</td>
             <td>0.642</td>
             <td>6,792</td>
             <td>3933</td>
@@ -71,7 +74,7 @@
         <tr>
             <th rowspan="4">Jovian planets</th>
             <th rowspan="2">Gas giants</th>
-            <td class="pl">Jupiter</td>
+            <td class="planets">Jupiter</td>
             <td>1898</td>
             <td>142,984</td>
             <td>1326</td>
@@ -83,7 +86,7 @@
             <td>The largest planet</td>
         </tr>
         <tr>
-            <td class="pl">Saturn</td>
+            <td class="planets">Saturn</td>
             <td>568</td>
             <td>120,536</td>
             <td>687</td>
@@ -96,7 +99,7 @@
         </tr>
         <tr>
             <th rowspan="2">Ice giants</th>
-            <td class="pl">Uranus</td>
+            <td class="planets">Uranus</td>
             <td>86.8</td>
             <td>51,118</td>
             <td>1271</td>
@@ -108,7 +111,7 @@
             <td></td>
         </tr>
         <tr>
-            <td class="pl">Neptune</td>
+            <td class="planets">Neptune</td>
             <td>102</td>
             <td>49,528</td>
             <td>1638</td>
@@ -120,8 +123,8 @@
             <td></td>
         </tr>
         <tr>
-            <th colspan="2",rowspan="1">Dwarf planets</th>
-            <td class="w1">Pluto</td>
+            <th colspan="2" rowspan="1">Dwarf planets</th>
+            <td class="pluto">Pluto</td>
             <td>0.0146</td>
             <td>2,370</td>
             <td>2095</td>
@@ -130,7 +133,9 @@
             <td>5906.4</td>
             <td>-225</td>
             <td>5</td>
-            <td>Declassified as a planet in 2006,<br> but this <span class="a1">remains controversial.</span></td>
+            <td>Declassified as a planet in 2006,<br> but this <span class="bluetext">remains controversial.</span></td>
         </tr>
     </table>
+    </div>
 </body>
+</html>
